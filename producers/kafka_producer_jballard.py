@@ -1,22 +1,12 @@
-"""
-kafka_producer_case.py
-
-Produce some streaming buzz strings and send them to a Kafka topic.
-"""
-
-#####################################
-# Import Modules
-#####################################
-
-# Import packages from Python Standard Library
 import os
 import sys
 import time
-
-# Import external packages
+import random
+from datetime import datetime
+from dataclasses import dataclass
+import json
 from dotenv import load_dotenv
 
-# Import functions from local modules
 from utils.utils_producer import (
     verify_services,
     create_kafka_producer,
@@ -24,113 +14,99 @@ from utils.utils_producer import (
 )
 from utils.utils_logger import logger
 
-#####################################
-# Load Environment Variables
-#####################################
-
 load_dotenv()
 
-#####################################
-# Getter Functions for .env Variables
-#####################################
-
+@dataclass
+class WeatherData:
+    location: str
+    temperature: float
+    condition: str
+    humidity: int
+    timestamp: str
 
 def get_kafka_topic() -> str:
-    """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("KAFKA_TOPIC", "buzz_topic")
+    topic = os.getenv("KAFKA_TOPIC", "weather_stream")
     logger.info(f"Kafka topic: {topic}")
     return topic
 
-
 def get_message_interval() -> int:
-    """Fetch message interval from environment or use default."""
-    interval = int(os.getenv("MESSAGE_INTERVAL_SECONDS", 1))
+    interval = int(os.getenv("MESSAGE_INTERVAL_SECONDS", 2))
     logger.info(f"Message interval: {interval} seconds")
     return interval
 
-
-#####################################
-# Message Generator
-#####################################
-
+def generate_weather_data() -> WeatherData:
+    locations = ["New York", "London", "Tokyo", "Sydney", "Paris"]
+    conditions = ["Sunny", "Cloudy", "Rainy", "Stormy", "Snowy", "Windy"]
+    
+    location = random.choice(locations)
+    base_temp = {
+        "New York": 20, "London": 15, "Tokyo": 25,
+        "Sydney": 28, "Paris": 18
+    }[location]
+    
+    temperature = round(base_temp + random.uniform(-5, 5), 1)
+    condition = random.choice(conditions)
+    humidity = random.randint(30, 90)
+    timestamp = datetime.now().isoformat()
+    
+    return WeatherData(location, temperature, condition, humidity, timestamp)
 
 def generate_messages(producer, topic, interval_secs):
-    """
-    Generate a stream of buzz messages and send them to a Kafka topic.
-
-    Args:
-        producer (KafkaProducer): The Kafka producer instance.
-        topic (str): The Kafka topic to send messages to.
-        interval_secs (int): Time in seconds between sending messages.
-
-    """
-    string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
-    ]
     try:
         while True:
-            for message in string_list:
-                logger.info(f"Generated buzz: {message}")
-                producer.send(topic, value=message)
-                logger.info(f"Sent message to topic '{topic}': {message}")
-                time.sleep(interval_secs)
+            weather_data = generate_weather_data()
+            message = {
+                "location": weather_data.location,
+                "temperature_celsius": weather_data.temperature,
+                "condition": weather_data.condition,
+                "humidity": weather_data.humidity,
+                "timestamp": weather_data.timestamp
+            }
+            
+            json_message = json.dumps(message)
+            producer.send(topic, value=json_message.encode('utf-8'))
+            
+            alert = ""
+            if weather_data.temperature > 30:
+                alert = "🔥 HEAT ALERT!"
+            elif weather_data.temperature < 0:
+                alert = "❄️ FREEZE ALERT!"
+            
+            log_msg = (f"{weather_data.location}: {weather_data.temperature}°C, "
+                      f"{weather_data.condition} {alert}")
+            logger.info(f"Sent: {log_msg}")
+            
+            time.sleep(interval_secs)
+            
     except KeyboardInterrupt:
         logger.warning("Producer interrupted by user.")
     except Exception as e:
         logger.error(f"Error in message generation: {e}")
     finally:
         producer.close()
-        logger.info("Kafka producer closed.")
-
-
-#####################################
-# Main Function
-#####################################
-
+        logger.info("Weather station offline - Kafka producer closed.")
 
 def main():
-    """
-    Main entry point for this producer.
-
-    - Ensures the Kafka topic exists.
-    - Creates a Kafka producer using the `create_kafka_producer` utility.
-    - Streams generated buzz message strings to the Kafka topic.
-    """
-    logger.info("START producer.")
+    logger.info("Starting weather station simulation...")
     verify_services()
 
-    # fetch .env content
     topic = get_kafka_topic()
     interval_secs = get_message_interval()
 
-    # Create the Kafka producer
     producer = create_kafka_producer()
     if not producer:
         logger.error("Failed to create Kafka producer. Exiting...")
         sys.exit(3)
 
-    # Create topic if it doesn't exist
     try:
         create_kafka_topic(topic)
-        logger.info(f"Kafka topic '{topic}' is ready.")
+        logger.info(f"Weather stream topic '{topic}' is ready.")
     except Exception as e:
         logger.error(f"Failed to create or verify topic '{topic}': {e}")
         sys.exit(1)
 
-    # Generate and send messages
-    logger.info(f"Starting message production to topic '{topic}'...")
+    logger.info("Weather station online - Starting data transmission...")
     generate_messages(producer, topic, interval_secs)
-
-    logger.info("END producer.")
-
-
-#####################################
-# Conditional Execution
-#####################################
 
 if __name__ == "__main__":
     main()
