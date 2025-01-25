@@ -1,0 +1,128 @@
+{"location": "London", "temperature_celsius": 10.9, "condition": "Rainy", "humidity": 33, "timestamp": "2025-01-24T23:47:29.591433"}
+{"location": "Paris", "temperature_celsius": 13.8, "condition": "Windy", "humidity": 75, "timestamp": "2025-01-24T23:47:31.609492"}
+{"location": "Paris", "temperature_celsius": 17.2, "condition": "Stormy", "humidity": 49, "timestamp": "2025-01-24T23:47:33.626175"}
+{"location": "Paris", "temperature_celsius": 13.7, "condition": "Windy", "humidity": 36, "timestamp": "2025-01-24T23:47:35.627863"}
+{"location": "London", "temperature_celsius": 15.0, "condition": "Rainy", "humidity": 38, "timestamp": "2025-01-24T23:47:37.630785"}
+{"location": "London", "temperature_celsius": 16.6, "condition": "Stormy", "humidity": 41, "timestamp": "2025-01-24T23:47:39.673755"}
+{"location": "Tokyo", "temperature_celsius": 29.4, "condition": "Cloudy", "humidity": 52, "timestamp": "2025-01-24T23:47:41.692220"}
+{"location": "Sydney", "temperature_celsius": 27.4, "condition": "Sunny", "humidity": 32, "timestamp": "2025-01-24T23:47:43.693498"}
+{"location": "Sydney", "temperature_celsius": 23.5, "condition": "Stormy", "humidity": 65, "timestamp": "2025-01-24T23:47:45.695323"}
+{"location": "New York", "temperature_celsius": 24.6, "condition": "Sunny", "humidity": 71, "timestamp": "2025-01-24T23:47:47.699805"}
+{"location": "London", "temperature_celsius": 11.0, "condition": "Rainy", "humidity": 43, "timestamp": "2025-01-24T23:47:49.701843"}
+{"location": "Sydney", "temperature_celsius": 26.6, "condition": "Snowy", "humidity": 70, "timestamp": "2025-01-24T23:47:51.704998"}
+{"location": "Paris", "temperature_celsius": 15.5, "condition": "Rainy", "humidity": 84, "timestamp": "2025-01-24T23:47:53.706134"}
+{"location": "Paris", "temperature_celsius": 15.0, "condition": "Snowy", "humidity": 60, "timestamp": "2025-01-24T23:47:55.707705"}
+{"location": "New York", "temperature_celsius": 20.2, "condition": "Snowy", "humidity": 75, "timestamp": "2025-01-24T23:47:57.709054"}
+{"location": "New York", "temperature_celsius": 21.6, "condition": "Windy", "humidity": 40, "timestamp": "2025-01-24T23:47:59.711789"}
+{"location": "London", "temperature_celsius": 11.8, "condition": "Stormy", "humidity": 61, "timestamp": "2025-01-24T23:48:01.713223"}
+{"location": "Tokyo", "temperature_celsius": 27.5, "condition": "Sunny", "humidity": 74, "timestamp": "2025-01-24T23:48:03.718866"}
+{"location": "New York", "temperature_celsius": 21.4, "condition": "Snowy", "humidity": 30, "timestamp": "2025-01-24T23:48:05.720293"}
+{"location": "London", "temperature_celsius": 17.8, "condition": "Snowy", "humidity": 43, "timestamp": "2025-01-24T23:48:07.721985"}
+{"location": "Paris", "temperature_celsius": 22.3, "condition": "Stormy", "humidity": 73, "timestamp": "2025-01-24T23:48:09.723038"}
+{"location": "Paris", "temperature_celsius": 13.1, "condition": "Windy", "humidity": 36, "timestamp": "2025-01-24T23:48:11.724540"}
+{"location": "Paris", "temperature_celsius": 18.5, "condition": "Sunny", "humidity": 82, "timestamp": "2025-01-24T23:48:13.728464"}
+{"location": "New York", "temperature_celsius": 15.8, "condition": "Sunny", "humidity": 55, "timestamp": "2025-01-24T23:48:15.729660"}
+{"location": "Sydney", "temperature_celsius": 30.8, "condition": "Windy", "humidity": 33, "timestamp": "2025-01-24T23:48:17.731357"}
+{"location": "New York", "temperature_celsius": 22.8, "condition": "Sunny", "humidity": 87, "timestamp": "2025-01-24T23:48:19.733259"}
+{"location": "Sydney", "temperature_celsius": 23.1, "condition": "Sunny", "humidity": 49, "timestamp": "2025-01-24T23:48:21.735162"}
+{"location": "London", "temperature_celsius": 10.9, "condition": "Snowy", "humidity": 41, "timestamp": "2025-01-24T23:48:23.736756"}
+{"location": "New York", "temperature_celsius": 19.5, "condition": "Snowy", "humidity": 63, "timestamp": "2025-01-24T23:48:25.739092"}
+{"location": "Paris", "temperature_celsius": 17.2, "condition": "Stormy", "humidity": 88, "timestamp": "2025-01-24T23:48:27.740366"}
+{"location": "Tokyo", "temperature_celsius": 23.3, "condition": "Sunny", "humidity": 80, "timestamp": "2025-01-24T23:48:29.745917"}
+{"location": "Sydney", "temperature_celsius": 27.7, "condition": "Windy", "humidity": 46, "timestamp": "2025-01-24T23:48:31.752647"}
+{"location": "Paris", "temperature_celsius": 21.6, "condition": "Rainy", "humidity": 41, "timestamp": "2025-01-24T23:48:33.754037"}
+{"location": "Tokyo", "temperature_celsius": 24.1, "condition": "Cloudy", "humidity": 80, "timestamp": "2025-01-24T23:48:35.755704"}
+{"location": "New York", "temperature_celsius": 21.2, "condition": "Cloudy", "humidity": 67, "timestamp": "2025-01-24T23:48:37.759757"}
+{"location": "Tokyo", "temperature_celsius": 20.6, "condition": "Rainy", "humidity": 47, "timestamp": "2025-01-24T23:48:39.763398"}
+{"location": "London", "temperature_celsius": 19.9, "condition": "Stormy", "humidity": 35, "timestamp": "2025-01-24T23:48:41.767300"}
+{"location": "London", "temperature_celsius": 16.6, "condition": "Windy", "humidity": 88, "timestamp": "2025-01-24T23:48:43.770648"}
+{"location": "London", "temperature_celsius": 14.2, "condition": "Snowy", "humidity": 37, "timestamp": "2025-01-24T23:48:45.772443"}
+{"location": "London", "temperature_celsius": 14.5, "condition": "Cloudy", "humidity": 40, "timestamp": "2025-01-24T23:48:47.774451"}
+{"location": "New York", "temperature_celsius": 20.8, "condition": "Windy", "humidity": 71, "timestamp": "2025-01-24T23:48:49.776507"}
+{"location": "New York", "temperature_celsius": 21.0, "condition": "Stormy", "humidity": 69, "timestamp": "2025-01-24T23:48:51.777776"}
+{"location": "Tokyo", "temperature_celsius": 29.2, "condition": "Snowy", "humidity": 49, "timestamp": "2025-01-24T23:48:53.780446"}
+{"location": "Paris", "temperature_celsius": 13.6, "condition": "Cloudy", "humidity": 33, "timestamp": "2025-01-24T23:48:55.785113"}
+{"location": "London", "temperature_celsius": 10.0, "condition": "Rainy", "humidity": 64, "timestamp": "2025-01-24T23:48:57.787769"}
+{"location": "Tokyo", "temperature_celsius": 23.5, "condition": "Stormy", "humidity": 49, "timestamp": "2025-01-24T23:48:59.790925"}
+{"location": "Tokyo", "temperature_celsius": 28.2, "condition": "Sunny", "humidity": 34, "timestamp": "2025-01-24T23:49:01.792726"}
+{"location": "London", "temperature_celsius": 11.0, "condition": "Cloudy", "humidity": 32, "timestamp": "2025-01-24T23:49:03.795345"}
+{"location": "Paris", "temperature_celsius": 17.3, "condition": "Windy", "humidity": 89, "timestamp": "2025-01-24T23:49:05.797067"}
+{"location": "Paris", "temperature_celsius": 13.5, "condition": "Snowy", "humidity": 46, "timestamp": "2025-01-24T23:49:07.798230"}
+{"location": "London", "temperature_celsius": 16.4, "condition": "Windy", "humidity": 39, "timestamp": "2025-01-24T23:49:09.800272"}
+{"location": "New York", "temperature_celsius": 17.7, "condition": "Cloudy", "humidity": 34, "timestamp": "2025-01-24T23:49:11.801977"}
+{"location": "Tokyo", "temperature_celsius": 23.0, "condition": "Cloudy", "humidity": 74, "timestamp": "2025-01-24T23:49:13.803752"}
+{"location": "London", "temperature_celsius": 13.1, "condition": "Sunny", "humidity": 59, "timestamp": "2025-01-24T23:49:15.806331"}
+{"location": "New York", "temperature_celsius": 18.0, "condition": "Rainy", "humidity": 34, "timestamp": "2025-01-24T23:49:17.807699"}
+{"location": "London", "temperature_celsius": 10.0, "condition": "Snowy", "humidity": 31, "timestamp": "2025-01-24T23:49:19.808950"}
+{"location": "Sydney", "temperature_celsius": 32.2, "condition": "Windy", "humidity": 37, "timestamp": "2025-01-24T23:49:21.810652"}
+{"location": "Tokyo", "temperature_celsius": 20.5, "condition": "Stormy", "humidity": 70, "timestamp": "2025-01-24T23:49:23.813200"}
+{"location": "Tokyo", "temperature_celsius": 24.7, "condition": "Windy", "humidity": 53, "timestamp": "2025-01-24T23:49:25.814649"}
+{"location": "Tokyo", "temperature_celsius": 22.8, "condition": "Rainy", "humidity": 80, "timestamp": "2025-01-24T23:49:27.816034"}
+{"location": "Tokyo", "temperature_celsius": 20.3, "condition": "Cloudy", "humidity": 66, "timestamp": "2025-01-24T23:49:29.824351"}
+{"location": "Sydney", "temperature_celsius": 23.6, "condition": "Snowy", "humidity": 41, "timestamp": "2025-01-24T23:49:31.827446"}
+{"location": "Sydney", "temperature_celsius": 25.0, "condition": "Snowy", "humidity": 41, "timestamp": "2025-01-24T23:49:33.829424"}
+{"location": "New York", "temperature_celsius": 15.4, "condition": "Snowy", "humidity": 54, "timestamp": "2025-01-24T23:49:35.830647"}
+{"location": "Paris", "temperature_celsius": 16.1, "condition": "Snowy", "humidity": 52, "timestamp": "2025-01-24T23:49:37.832140"}
+{"location": "London", "temperature_celsius": 12.5, "condition": "Cloudy", "humidity": 49, "timestamp": "2025-01-24T23:49:39.833755"}
+{"location": "London", "temperature_celsius": 11.4, "condition": "Cloudy", "humidity": 61, "timestamp": "2025-01-24T23:49:41.835053"}
+{"location": "Sydney", "temperature_celsius": 29.9, "condition": "Stormy", "humidity": 90, "timestamp": "2025-01-24T23:49:43.839236"}
+{"location": "New York", "temperature_celsius": 16.1, "condition": "Snowy", "humidity": 38, "timestamp": "2025-01-24T23:49:45.842049"}
+{"location": "Tokyo", "temperature_celsius": 25.1, "condition": "Sunny", "humidity": 85, "timestamp": "2025-01-24T23:49:47.843459"}
+{"location": "Sydney", "temperature_celsius": 25.3, "condition": "Stormy", "humidity": 74, "timestamp": "2025-01-24T23:49:49.844916"}
+{"location": "Paris", "temperature_celsius": 20.7, "condition": "Stormy", "humidity": 53, "timestamp": "2025-01-24T23:49:51.848480"}
+{"location": "Sydney", "temperature_celsius": 24.0, "condition": "Cloudy", "humidity": 35, "timestamp": "2025-01-24T23:49:53.849913"}
+{"location": "Sydney", "temperature_celsius": 29.2, "condition": "Windy", "humidity": 33, "timestamp": "2025-01-24T23:49:55.851841"}
+{"location": "Paris", "temperature_celsius": 16.0, "condition": "Cloudy", "humidity": 60, "timestamp": "2025-01-24T23:49:57.853664"}
+{"location": "London", "temperature_celsius": 15.0, "condition": "Rainy", "humidity": 52, "timestamp": "2025-01-24T23:49:59.855412"}
+{"location": "New York", "temperature_celsius": 19.2, "condition": "Cloudy", "humidity": 69, "timestamp": "2025-01-24T23:50:01.857701"}
+{"location": "New York", "temperature_celsius": 17.3, "condition": "Windy", "humidity": 60, "timestamp": "2025-01-24T23:50:03.859641"}
+{"location": "Tokyo", "temperature_celsius": 27.0, "condition": "Stormy", "humidity": 54, "timestamp": "2025-01-24T23:50:05.863068"}
+{"location": "Tokyo", "temperature_celsius": 24.0, "condition": "Windy", "humidity": 45, "timestamp": "2025-01-24T23:50:07.869951"}
+{"location": "London", "temperature_celsius": 18.6, "condition": "Snowy", "humidity": 73, "timestamp": "2025-01-24T23:50:09.872051"}
+{"location": "Sydney", "temperature_celsius": 29.0, "condition": "Stormy", "humidity": 89, "timestamp": "2025-01-24T23:50:11.873336"}
+{"location": "Paris", "temperature_celsius": 19.4, "condition": "Stormy", "humidity": 50, "timestamp": "2025-01-24T23:50:13.874862"}
+{"location": "New York", "temperature_celsius": 24.8, "condition": "Cloudy", "humidity": 77, "timestamp": "2025-01-24T23:50:15.877064"}
+{"location": "New York", "temperature_celsius": 17.0, "condition": "Stormy", "humidity": 43, "timestamp": "2025-01-24T23:50:17.878525"}
+{"location": "New York", "temperature_celsius": 15.9, "condition": "Cloudy", "humidity": 49, "timestamp": "2025-01-24T23:50:19.881867"}
+{"location": "Tokyo", "temperature_celsius": 29.3, "condition": "Stormy", "humidity": 56, "timestamp": "2025-01-24T23:50:21.883590"}
+{"location": "Tokyo", "temperature_celsius": 22.6, "condition": "Rainy", "humidity": 88, "timestamp": "2025-01-24T23:50:23.896236"}
+{"location": "London", "temperature_celsius": 18.8, "condition": "Sunny", "humidity": 51, "timestamp": "2025-01-24T23:50:25.897847"}
+{"location": "Paris", "temperature_celsius": 13.6, "condition": "Stormy", "humidity": 43, "timestamp": "2025-01-24T23:50:27.899446"}
+{"location": "London", "temperature_celsius": 17.8, "condition": "Snowy", "humidity": 58, "timestamp": "2025-01-24T23:50:29.900675"}
+{"location": "London", "temperature_celsius": 15.2, "condition": "Windy", "humidity": 58, "timestamp": "2025-01-24T23:50:31.906303"}
+{"location": "London", "temperature_celsius": 13.8, "condition": "Cloudy", "humidity": 58, "timestamp": "2025-01-24T23:50:33.907646"}
+{"location": "Paris", "temperature_celsius": 13.6, "condition": "Stormy", "humidity": 53, "timestamp": "2025-01-24T23:50:35.909019"}
+{"location": "London", "temperature_celsius": 11.5, "condition": "Cloudy", "humidity": 49, "timestamp": "2025-01-24T23:50:37.911063"}
+{"location": "Tokyo", "temperature_celsius": 23.5, "condition": "Windy", "humidity": 89, "timestamp": "2025-01-24T23:50:39.912343"}
+{"location": "London", "temperature_celsius": 19.7, "condition": "Rainy", "humidity": 59, "timestamp": "2025-01-24T23:50:41.916973"}
+{"location": "Sydney", "temperature_celsius": 26.4, "condition": "Snowy", "humidity": 72, "timestamp": "2025-01-24T23:50:43.918356"}
+{"location": "Tokyo", "temperature_celsius": 20.2, "condition": "Cloudy", "humidity": 42, "timestamp": "2025-01-24T23:50:45.922193"}
+{"location": "Paris", "temperature_celsius": 17.7, "condition": "Snowy", "humidity": 40, "timestamp": "2025-01-24T23:50:47.923852"}
+{"location": "London", "temperature_celsius": 15.7, "condition": "Rainy", "humidity": 43, "timestamp": "2025-01-24T23:50:49.925382"}
+{"location": "Sydney", "temperature_celsius": 32.4, "condition": "Rainy", "humidity": 52, "timestamp": "2025-01-24T23:50:51.927562"}
+{"location": "Paris", "temperature_celsius": 18.7, "condition": "Snowy", "humidity": 57, "timestamp": "2025-01-24T23:50:53.932603"}
+{"location": "London", "temperature_celsius": 10.2, "condition": "Rainy", "humidity": 33, "timestamp": "2025-01-24T23:50:55.934399"}
+{"location": "Tokyo", "temperature_celsius": 21.8, "condition": "Sunny", "humidity": 59, "timestamp": "2025-01-24T23:50:57.936082"}
+{"location": "London", "temperature_celsius": 15.1, "condition": "Windy", "humidity": 87, "timestamp": "2025-01-24T23:50:59.939419"}
+{"location": "New York", "temperature_celsius": 20.7, "condition": "Stormy", "humidity": 66, "timestamp": "2025-01-24T23:51:01.941286"}
+{"location": "Sydney", "temperature_celsius": 32.2, "condition": "Snowy", "humidity": 70, "timestamp": "2025-01-24T23:51:03.943523"}
+{"location": "Paris", "temperature_celsius": 21.2, "condition": "Windy", "humidity": 40, "timestamp": "2025-01-24T23:51:05.945630"}
+{"location": "New York", "temperature_celsius": 24.7, "condition": "Cloudy", "humidity": 34, "timestamp": "2025-01-24T23:51:07.947415"}
+{"location": "London", "temperature_celsius": 13.6, "condition": "Cloudy", "humidity": 41, "timestamp": "2025-01-24T23:51:09.950071"}
+{"location": "Sydney", "temperature_celsius": 24.6, "condition": "Sunny", "humidity": 37, "timestamp": "2025-01-24T23:51:11.951280"}
+{"location": "Paris", "temperature_celsius": 16.2, "condition": "Sunny", "humidity": 81, "timestamp": "2025-01-24T23:51:13.957246"}
+{"location": "Paris", "temperature_celsius": 15.6, "condition": "Rainy", "humidity": 85, "timestamp": "2025-01-24T23:51:15.958721"}
+{"location": "Tokyo", "temperature_celsius": 24.5, "condition": "Stormy", "humidity": 58, "timestamp": "2025-01-24T23:51:17.960248"}
+{"location": "Tokyo", "temperature_celsius": 27.0, "condition": "Cloudy", "humidity": 90, "timestamp": "2025-01-24T23:51:19.961760"}
+{"location": "Tokyo", "temperature_celsius": 20.4, "condition": "Windy", "humidity": 88, "timestamp": "2025-01-24T23:51:21.963908"}
+{"location": "Tokyo", "temperature_celsius": 29.0, "condition": "Rainy", "humidity": 45, "timestamp": "2025-01-24T23:51:23.966293"}
+{"location": "Paris", "temperature_celsius": 15.2, "condition": "Sunny", "humidity": 80, "timestamp": "2025-01-24T23:51:25.968281"}
+{"location": "London", "temperature_celsius": 16.6, "condition": "Rainy", "humidity": 68, "timestamp": "2025-01-24T23:51:27.969552"}
+{"location": "New York", "temperature_celsius": 22.5, "condition": "Windy", "humidity": 35, "timestamp": "2025-01-24T23:51:29.971324"}
+{"location": "Tokyo", "temperature_celsius": 23.6, "condition": "Windy", "humidity": 56, "timestamp": "2025-01-24T23:51:31.976688"}
+{"location": "Sydney", "temperature_celsius": 27.8, "condition": "Sunny", "humidity": 36, "timestamp": "2025-01-24T23:51:33.978388"}
+{"location": "New York", "temperature_celsius": 20.1, "condition": "Rainy", "humidity": 86, "timestamp": "2025-01-24T23:51:35.982285"}
+{"location": "Paris", "temperature_celsius": 14.5, "condition": "Snowy", "humidity": 74, "timestamp": "2025-01-24T23:51:37.984356"}
+{"location": "Paris", "temperature_celsius": 20.0, "condition": "Windy", "humidity": 73, "timestamp": "2025-01-24T23:51:39.986216"}
+{"location": "Sydney", "temperature_celsius": 31.6, "condition": "Sunny", "humidity": 50, "timestamp": "2025-01-24T23:51:41.987761"}
+{"location": "London", "temperature_celsius": 19.4, "condition": "Snowy", "humidity": 56, "timestamp": "2025-01-24T23:51:43.990866"}

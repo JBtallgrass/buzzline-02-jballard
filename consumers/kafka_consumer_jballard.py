@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
 
+# Load environment variables
 load_dotenv()
 
 class WeatherAnalytics:
@@ -15,10 +16,10 @@ class WeatherAnalytics:
         self.location_temps = defaultdict(list)
         self.extreme_conditions = []
         self.messages_processed = 0
-        
+
     def update_stats(self, location: str, temp: float):
         self.location_temps[location].append(temp)
-        
+
     def get_location_stats(self, location: str) -> dict:
         temps = self.location_temps[location]
         if not temps:
@@ -46,10 +47,12 @@ def process_message(message: str, analytics: WeatherAnalytics) -> None:
         location = data["location"]
         temp = data["temperature_celsius"]
         condition = data["condition"]
-        
+
+        # Update analytics
         analytics.update_stats(location, temp)
         analytics.messages_processed += 1
-        
+
+        # Track extreme conditions
         if temp > 30 or temp < 0 or condition in ["Stormy", "Snowy"]:
             analytics.extreme_conditions.append({
                 "location": location,
@@ -57,20 +60,34 @@ def process_message(message: str, analytics: WeatherAnalytics) -> None:
                 "temperature": temp,
                 "timestamp": data["timestamp"]
             })
-        
+
+        # Save analytics every 10 messages
         if analytics.messages_processed % 10 == 0:
             logger.info("\n=== Weather Analytics Update ===")
-            for loc in analytics.location_temps.keys():
-                stats = analytics.get_location_stats(loc)
-                logger.info(f"{loc}: Avg {stats['avg_temp']}°C, "
-                          f"Range: {stats['min_temp']}°C to {stats['max_temp']}°C")
-            
+            with open("logs/consumer_analytics.csv", "a", newline="") as file:
+                writer = csv.writer(file)
+                if analytics.messages_processed == 10:
+                    writer.writerow(["location", "avg_temp", "max_temp", "min_temp", "readings"])  # Write header
+                
+                for loc in analytics.location_temps.keys():
+                    stats = analytics.get_location_stats(loc)
+                    writer.writerow([
+                        loc,
+                        stats["avg_temp"],
+                        stats["max_temp"],
+                        stats["min_temp"],
+                        stats["readings"]
+                    ])
+                    logger.info(f"{loc}: Avg {stats['avg_temp']}°C, "
+                                f"Range: {stats['min_temp']}°C to {stats['max_temp']}°C")
+
+            # Log recent extreme conditions
             if analytics.extreme_conditions:
                 logger.info("\nRecent Extreme Conditions:")
                 for event in analytics.extreme_conditions[-3:]:
                     logger.info(f"{event['location']}: {event['condition']} "
-                              f"at {event['temperature']}°C")
-            
+                                f"at {event['temperature']}°C")
+
     except json.JSONDecodeError as e:
         logger.error(f"Failed to parse message as JSON: {e}")
     except KeyError as e:
@@ -80,16 +97,21 @@ def process_message(message: str, analytics: WeatherAnalytics) -> None:
 
 def main() -> None:
     logger.info("Starting weather analytics system...")
-    
+
+    # Get Kafka topic and consumer group
     topic = get_kafka_topic()
     group_id = get_kafka_consumer_group_id()
+
+    # Initialize analytics
     analytics = WeatherAnalytics()
-    
+
+    # Create Kafka consumer
     consumer = create_kafka_consumer(topic, group_id)
-    
+
     try:
+        # Consume messages
         for message in consumer:
-            message_str = message.value.decode('utf-8')
+            message_str = message.value
             process_message(message_str, analytics)
     except KeyboardInterrupt:
         logger.warning("Weather analytics interrupted by user.")
