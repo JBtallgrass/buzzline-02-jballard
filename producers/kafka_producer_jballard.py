@@ -64,7 +64,7 @@ def generate_messages(producer, topic, interval_secs):
             }
             
             json_message = json.dumps(message)
-            producer.send(topic, value=json_message.encode('utf-8'))
+            producer.send(topic, value=json_message)
             
             alert = ""
             if weather_data.temperature > 30:
