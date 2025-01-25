@@ -403,3 +403,537 @@
 2025-01-24 22:34:15.239 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 20.9, "condition": "Stormy", "humidity": 53, "timestamp": "2025-01-24T22:34:15.237167"}
 2025-01-24 22:34:16.238 | INFO     | __main__:generate_messages:77 - Sent: New York: 24.1°C, Snowy 
 2025-01-24 22:34:16.240 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 24.1, "condition": "Snowy", "humidity": 39, "timestamp": "2025-01-24T22:34:16.238338"}
+2025-01-24 22:34:17.239 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 24.7°C, Stormy 
+2025-01-24 22:34:17.240 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 24.7, "condition": "Stormy", "humidity": 31, "timestamp": "2025-01-24T22:34:17.239166"}
+2025-01-24 22:34:18.240 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 24.1°C, Sunny 
+2025-01-24 22:34:18.246 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 24.1, "condition": "Sunny", "humidity": 61, "timestamp": "2025-01-24T22:34:18.240418"}
+2025-01-24 22:34:19.241 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.3°C, Rainy 
+2025-01-24 22:34:19.247 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.3, "condition": "Rainy", "humidity": 89, "timestamp": "2025-01-24T22:34:19.241077"}
+2025-01-24 22:34:20.245 | INFO     | __main__:generate_messages:77 - Sent: New York: 15.9°C, Stormy 
+2025-01-24 22:34:20.247 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 15.9, "condition": "Stormy", "humidity": 80, "timestamp": "2025-01-24T22:34:20.242087"}
+2025-01-24 22:34:21.246 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 20.2°C, Cloudy 
+2025-01-24 22:34:21.250 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 20.2, "condition": "Cloudy", "humidity": 70, "timestamp": "2025-01-24T22:34:21.246921"}
+2025-01-24 22:34:22.248 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.9°C, Windy 
+2025-01-24 22:34:22.250 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.9, "condition": "Windy", "humidity": 56, "timestamp": "2025-01-24T22:34:22.248731"}
+2025-01-24 22:34:23.253 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.2°C, Windy 
+2025-01-24 22:34:23.255 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.2, "condition": "Windy", "humidity": 75, "timestamp": "2025-01-24T22:34:23.249909"}
+2025-01-24 22:34:24.254 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.9°C, Stormy 
+2025-01-24 22:34:24.256 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.9, "condition": "Stormy", "humidity": 55, "timestamp": "2025-01-24T22:34:24.254722"}
+2025-01-24 22:34:25.255 | INFO     | __main__:generate_messages:77 - Sent: New York: 17.5°C, Cloudy 
+2025-01-24 22:34:25.257 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 17.5, "condition": "Cloudy", "humidity": 31, "timestamp": "2025-01-24T22:34:25.255382"}
+2025-01-24 22:34:26.256 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.7°C, Rainy 
+2025-01-24 22:34:26.258 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.7, "condition": "Rainy", "humidity": 35, "timestamp": "2025-01-24T22:34:26.256215"}
+2025-01-24 22:34:27.312 | INFO     | __main__:generate_messages:77 - Sent: Paris: 22.3°C, Rainy 
+2025-01-24 22:34:27.316 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 22.3, "condition": "Rainy", "humidity": 77, "timestamp": "2025-01-24T22:34:27.285800"}
+2025-01-24 22:34:28.316 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 21.8°C, Stormy 
+2025-01-24 22:34:28.318 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 21.8, "condition": "Stormy", "humidity": 80, "timestamp": "2025-01-24T22:34:28.316599"}
+2025-01-24 22:34:29.317 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.9°C, Rainy 
+2025-01-24 22:34:29.319 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.9, "condition": "Rainy", "humidity": 82, "timestamp": "2025-01-24T22:34:29.317514"}
+2025-01-24 22:34:30.318 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.3°C, Windy 
+2025-01-24 22:34:30.321 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.3, "condition": "Windy", "humidity": 47, "timestamp": "2025-01-24T22:34:30.318598"}
+2025-01-24 22:34:31.321 | INFO     | __main__:generate_messages:77 - Sent: Paris: 19.8°C, Windy 
+2025-01-24 22:34:31.323 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 19.8, "condition": "Windy", "humidity": 53, "timestamp": "2025-01-24T22:34:31.321666"}
+2025-01-24 22:34:32.322 | INFO     | __main__:generate_messages:77 - Sent: Paris: 16.8°C, Snowy 
+2025-01-24 22:34:32.324 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 16.8, "condition": "Snowy", "humidity": 74, "timestamp": "2025-01-24T22:34:32.322403"}
+2025-01-24 22:34:33.323 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.2°C, Snowy 
+2025-01-24 22:34:33.325 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.2, "condition": "Snowy", "humidity": 56, "timestamp": "2025-01-24T22:34:33.323439"}
+2025-01-24 22:34:34.324 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 30.4°C, Cloudy 🔥 HEAT ALERT!
+2025-01-24 22:34:34.335 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 30.4, "condition": "Cloudy", "humidity": 51, "timestamp": "2025-01-24T22:34:34.324428"}
+2025-01-24 22:34:35.330 | INFO     | __main__:generate_messages:77 - Sent: London: 12.8°C, Rainy 
+2025-01-24 22:34:35.332 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 12.8, "condition": "Rainy", "humidity": 41, "timestamp": "2025-01-24T22:34:35.325658"}
+2025-01-24 22:34:36.331 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.2°C, Windy 
+2025-01-24 22:34:36.338 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.2, "condition": "Windy", "humidity": 78, "timestamp": "2025-01-24T22:34:36.331352"}
+2025-01-24 22:34:37.332 | INFO     | __main__:generate_messages:77 - Sent: London: 19.8°C, Stormy 
+2025-01-24 22:34:37.336 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 19.8, "condition": "Stormy", "humidity": 35, "timestamp": "2025-01-24T22:34:37.332567"}
+2025-01-24 22:34:38.333 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.1°C, Windy 🔥 HEAT ALERT!
+2025-01-24 22:34:38.335 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.1, "condition": "Windy", "humidity": 90, "timestamp": "2025-01-24T22:34:38.333429"}
+2025-01-24 22:34:39.334 | INFO     | __main__:generate_messages:77 - Sent: London: 19.7°C, Windy 
+2025-01-24 22:34:39.336 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 19.7, "condition": "Windy", "humidity": 41, "timestamp": "2025-01-24T22:34:39.334356"}
+2025-01-24 22:34:40.335 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.5°C, Stormy 
+2025-01-24 22:34:40.337 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.5, "condition": "Stormy", "humidity": 59, "timestamp": "2025-01-24T22:34:40.335854"}
+2025-01-24 22:34:41.337 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.9°C, Snowy 
+2025-01-24 22:34:41.339 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.9, "condition": "Snowy", "humidity": 66, "timestamp": "2025-01-24T22:34:41.337128"}
+2025-01-24 22:34:42.338 | INFO     | __main__:generate_messages:77 - Sent: London: 16.2°C, Snowy 
+2025-01-24 22:34:42.340 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 16.2, "condition": "Snowy", "humidity": 86, "timestamp": "2025-01-24T22:34:42.338625"}
+2025-01-24 22:34:43.339 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 28.4°C, Stormy 
+2025-01-24 22:34:43.340 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 28.4, "condition": "Stormy", "humidity": 38, "timestamp": "2025-01-24T22:34:43.339370"}
+2025-01-24 22:34:44.340 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.7°C, Stormy 
+2025-01-24 22:34:44.342 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.7, "condition": "Stormy", "humidity": 68, "timestamp": "2025-01-24T22:34:44.340126"}
+2025-01-24 22:34:45.341 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.8°C, Rainy 
+2025-01-24 22:34:45.343 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.8, "condition": "Rainy", "humidity": 38, "timestamp": "2025-01-24T22:34:45.341016"}
+2025-01-24 22:34:46.342 | INFO     | __main__:generate_messages:77 - Sent: New York: 15.6°C, Stormy 
+2025-01-24 22:34:46.344 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 15.6, "condition": "Stormy", "humidity": 39, "timestamp": "2025-01-24T22:34:46.342807"}
+2025-01-24 22:34:47.344 | INFO     | __main__:generate_messages:77 - Sent: Paris: 19.1°C, Windy 
+2025-01-24 22:34:47.352 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 19.1, "condition": "Windy", "humidity": 55, "timestamp": "2025-01-24T22:34:47.344124"}
+2025-01-24 22:34:48.348 | INFO     | __main__:generate_messages:77 - Sent: London: 10.2°C, Sunny 
+2025-01-24 22:34:48.350 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.2, "condition": "Sunny", "humidity": 45, "timestamp": "2025-01-24T22:34:48.348498"}
+2025-01-24 22:34:49.352 | INFO     | __main__:generate_messages:77 - Sent: Paris: 20.0°C, Stormy 
+2025-01-24 22:34:49.355 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 20.0, "condition": "Stormy", "humidity": 52, "timestamp": "2025-01-24T22:34:49.351266"}
+2025-01-24 22:34:50.354 | INFO     | __main__:generate_messages:77 - Sent: Paris: 17.6°C, Snowy 
+2025-01-24 22:34:50.356 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 17.6, "condition": "Snowy", "humidity": 74, "timestamp": "2025-01-24T22:34:50.354424"}
+2025-01-24 22:34:51.355 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 21.8°C, Stormy 
+2025-01-24 22:34:51.356 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 21.8, "condition": "Stormy", "humidity": 55, "timestamp": "2025-01-24T22:34:51.355480"}
+2025-01-24 22:34:52.356 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.7°C, Rainy 
+2025-01-24 22:34:52.358 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.7, "condition": "Rainy", "humidity": 39, "timestamp": "2025-01-24T22:34:52.356684"}
+2025-01-24 22:34:53.357 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.0°C, Rainy 
+2025-01-24 22:34:53.359 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.0, "condition": "Rainy", "humidity": 83, "timestamp": "2025-01-24T22:34:53.357706"}
+2025-01-24 22:34:54.358 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.1°C, Cloudy 
+2025-01-24 22:34:54.361 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.1, "condition": "Cloudy", "humidity": 48, "timestamp": "2025-01-24T22:34:54.358540"}
+2025-01-24 22:34:55.359 | INFO     | __main__:generate_messages:77 - Sent: Paris: 16.4°C, Snowy 
+2025-01-24 22:34:55.364 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 16.4, "condition": "Snowy", "humidity": 30, "timestamp": "2025-01-24T22:34:55.359368"}
+2025-01-24 22:34:56.367 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.1, "condition": "Stormy", "humidity": 82, "timestamp": "2025-01-24T22:34:56.364615"}
+2025-01-24 22:34:57.387 | INFO     | __main__:generate_messages:77 - Sent: London: 15.1°C, Stormy 
+2025-01-24 22:34:57.389 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.1, "condition": "Stormy", "humidity": 33, "timestamp": "2025-01-24T22:34:57.387572"}
+2025-01-24 22:34:58.388 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.7°C, Snowy 
+2025-01-24 22:34:58.390 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.7, "condition": "Snowy", "humidity": 83, "timestamp": "2025-01-24T22:34:58.388762"}
+2025-01-24 22:34:59.389 | INFO     | __main__:generate_messages:77 - Sent: London: 10.1°C, Sunny 
+2025-01-24 22:34:59.391 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.1, "condition": "Sunny", "humidity": 90, "timestamp": "2025-01-24T22:34:59.389770"}
+2025-01-24 22:35:00.390 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.8°C, Snowy 
+2025-01-24 22:35:00.392 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.8, "condition": "Snowy", "humidity": 67, "timestamp": "2025-01-24T22:35:00.390492"}
+2025-01-24 22:35:01.391 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.2°C, Stormy 
+2025-01-24 22:35:01.393 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.2, "condition": "Stormy", "humidity": 33, "timestamp": "2025-01-24T22:35:01.391815"}
+2025-01-24 22:35:02.392 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.4°C, Sunny 
+2025-01-24 22:35:02.395 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.4, "condition": "Sunny", "humidity": 69, "timestamp": "2025-01-24T22:35:02.392721"}
+2025-01-24 22:35:03.394 | INFO     | __main__:generate_messages:77 - Sent: London: 14.5°C, Rainy 
+2025-01-24 22:35:03.396 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.5, "condition": "Rainy", "humidity": 47, "timestamp": "2025-01-24T22:35:03.394340"}
+2025-01-24 22:35:04.401 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 26.0, "condition": "Windy", "humidity": 46, "timestamp": "2025-01-24T22:35:04.395623"}
+2025-01-24 22:35:04.395 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 26.0°C, Windy 
+2025-01-24 22:35:05.403 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.4°C, Cloudy 
+2025-01-24 22:35:05.405 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.4, "condition": "Cloudy", "humidity": 73, "timestamp": "2025-01-24T22:35:05.403726"}
+2025-01-24 22:35:06.404 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 30.5°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:35:06.406 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 30.5, "condition": "Rainy", "humidity": 75, "timestamp": "2025-01-24T22:35:06.404872"}
+2025-01-24 22:35:07.405 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.0°C, Sunny 🔥 HEAT ALERT!
+2025-01-24 22:35:07.408 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.0, "condition": "Sunny", "humidity": 49, "timestamp": "2025-01-24T22:35:07.405931"}
+2025-01-24 22:35:08.407 | INFO     | __main__:generate_messages:77 - Sent: Paris: 20.8°C, Windy 
+2025-01-24 22:35:08.409 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 20.8, "condition": "Windy", "humidity": 86, "timestamp": "2025-01-24T22:35:08.407177"}
+2025-01-24 22:35:09.408 | INFO     | __main__:generate_messages:77 - Sent: London: 18.1°C, Cloudy 
+2025-01-24 22:35:09.411 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 18.1, "condition": "Cloudy", "humidity": 59, "timestamp": "2025-01-24T22:35:09.408279"}
+2025-01-24 22:35:10.409 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 29.1°C, Sunny 
+2025-01-24 22:35:10.419 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 29.1, "condition": "Sunny", "humidity": 86, "timestamp": "2025-01-24T22:35:10.409338"}
+2025-01-24 22:35:11.410 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 29.3°C, Rainy 
+2025-01-24 22:35:11.415 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 29.3, "condition": "Rainy", "humidity": 53, "timestamp": "2025-01-24T22:35:11.410656"}
+2025-01-24 22:35:12.413 | INFO     | __main__:generate_messages:77 - Sent: London: 15.7°C, Stormy 
+2025-01-24 22:35:12.417 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.7, "condition": "Stormy", "humidity": 75, "timestamp": "2025-01-24T22:35:12.413912"}
+2025-01-24 22:35:13.415 | INFO     | __main__:generate_messages:77 - Sent: London: 19.7°C, Windy 
+2025-01-24 22:35:13.418 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 19.7, "condition": "Windy", "humidity": 50, "timestamp": "2025-01-24T22:35:13.415166"}
+2025-01-24 22:35:14.416 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 22.4°C, Snowy 
+2025-01-24 22:35:14.420 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 22.4, "condition": "Snowy", "humidity": 52, "timestamp": "2025-01-24T22:35:14.416667"}
+2025-01-24 22:35:15.418 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 22.8°C, Sunny 
+2025-01-24 22:35:15.421 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 22.8, "condition": "Sunny", "humidity": 49, "timestamp": "2025-01-24T22:35:15.418931"}
+2025-01-24 22:35:16.419 | INFO     | __main__:generate_messages:77 - Sent: London: 13.0°C, Stormy 
+2025-01-24 22:35:16.421 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.0, "condition": "Stormy", "humidity": 69, "timestamp": "2025-01-24T22:35:16.419823"}
+2025-01-24 22:35:17.420 | INFO     | __main__:generate_messages:77 - Sent: London: 11.7°C, Rainy 
+2025-01-24 22:35:17.422 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.7, "condition": "Rainy", "humidity": 50, "timestamp": "2025-01-24T22:35:17.420972"}
+2025-01-24 22:35:18.422 | INFO     | __main__:generate_messages:77 - Sent: London: 14.6°C, Stormy 
+2025-01-24 22:35:18.424 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.6, "condition": "Stormy", "humidity": 56, "timestamp": "2025-01-24T22:35:18.422346"}
+2025-01-24 22:35:19.423 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.0°C, Rainy 
+2025-01-24 22:35:19.425 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.0, "condition": "Rainy", "humidity": 30, "timestamp": "2025-01-24T22:35:19.423542"}
+2025-01-24 22:35:20.424 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.5°C, Sunny 
+2025-01-24 22:35:20.426 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.5, "condition": "Sunny", "humidity": 88, "timestamp": "2025-01-24T22:35:20.424408"}
+2025-01-24 22:35:21.425 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.7°C, Stormy 
+2025-01-24 22:35:21.429 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.7, "condition": "Stormy", "humidity": 44, "timestamp": "2025-01-24T22:35:21.425512"}
+2025-01-24 22:35:22.426 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 25.3°C, Windy 
+2025-01-24 22:35:22.433 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 25.3, "condition": "Windy", "humidity": 48, "timestamp": "2025-01-24T22:35:22.426241"}
+2025-01-24 22:35:23.431 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 19.0, "condition": "Rainy", "humidity": 60, "timestamp": "2025-01-24T22:35:23.427092"}
+2025-01-24 22:35:23.427 | INFO     | __main__:generate_messages:77 - Sent: Paris: 19.0°C, Rainy 
+2025-01-24 22:35:24.432 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.2°C, Cloudy 
+2025-01-24 22:35:24.437 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.2, "condition": "Cloudy", "humidity": 41, "timestamp": "2025-01-24T22:35:24.432059"}
+2025-01-24 22:35:25.433 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 27.4°C, Sunny 
+2025-01-24 22:35:25.435 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 27.4, "condition": "Sunny", "humidity": 52, "timestamp": "2025-01-24T22:35:25.433176"}
+2025-01-24 22:35:26.433 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.8°C, Rainy 
+2025-01-24 22:35:26.437 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.8, "condition": "Rainy", "humidity": 67, "timestamp": "2025-01-24T22:35:26.433858"}
+2025-01-24 22:35:27.436 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.5°C, Rainy 
+2025-01-24 22:35:27.438 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.5, "condition": "Rainy", "humidity": 86, "timestamp": "2025-01-24T22:35:27.435520"}
+2025-01-24 22:35:28.437 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 24.0°C, Rainy 
+2025-01-24 22:35:28.439 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 24.0, "condition": "Rainy", "humidity": 57, "timestamp": "2025-01-24T22:35:28.437450"}
+2025-01-24 22:35:29.438 | INFO     | __main__:generate_messages:77 - Sent: London: 12.8°C, Sunny 
+2025-01-24 22:35:29.440 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 12.8, "condition": "Sunny", "humidity": 87, "timestamp": "2025-01-24T22:35:29.438965"}
+2025-01-24 22:35:30.439 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.5°C, Cloudy 
+2025-01-24 22:35:30.442 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.5, "condition": "Cloudy", "humidity": 75, "timestamp": "2025-01-24T22:35:30.439947"}
+2025-01-24 22:35:31.440 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 25.7°C, Sunny 
+2025-01-24 22:35:31.442 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 25.7, "condition": "Sunny", "humidity": 46, "timestamp": "2025-01-24T22:35:31.440930"}
+2025-01-24 22:35:32.442 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 27.5°C, Rainy 
+2025-01-24 22:35:32.444 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 27.5, "condition": "Rainy", "humidity": 52, "timestamp": "2025-01-24T22:35:32.442320"}
+2025-01-24 22:35:33.443 | INFO     | __main__:generate_messages:77 - Sent: Paris: 17.1°C, Windy 
+2025-01-24 22:35:33.446 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 17.1, "condition": "Windy", "humidity": 80, "timestamp": "2025-01-24T22:35:33.443255"}
+2025-01-24 22:35:34.445 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.5°C, Windy 
+2025-01-24 22:35:34.452 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.5, "condition": "Windy", "humidity": 75, "timestamp": "2025-01-24T22:35:34.445717"}
+2025-01-24 22:35:35.448 | INFO     | __main__:generate_messages:77 - Sent: London: 14.3°C, Rainy 
+2025-01-24 22:35:35.451 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.3, "condition": "Rainy", "humidity": 53, "timestamp": "2025-01-24T22:35:35.447497"}
+2025-01-24 22:35:36.449 | INFO     | __main__:generate_messages:77 - Sent: London: 14.2°C, Windy 
+2025-01-24 22:35:36.452 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.2, "condition": "Windy", "humidity": 63, "timestamp": "2025-01-24T22:35:36.449227"}
+2025-01-24 22:35:37.450 | INFO     | __main__:generate_messages:77 - Sent: London: 13.7°C, Stormy 
+2025-01-24 22:35:37.452 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.7, "condition": "Stormy", "humidity": 31, "timestamp": "2025-01-24T22:35:37.450314"}
+2025-01-24 22:35:38.451 | INFO     | __main__:generate_messages:77 - Sent: London: 10.2°C, Cloudy 
+2025-01-24 22:35:38.454 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.2, "condition": "Cloudy", "humidity": 58, "timestamp": "2025-01-24T22:35:38.451980"}
+2025-01-24 22:35:39.453 | INFO     | __main__:generate_messages:77 - Sent: London: 10.5°C, Stormy 
+2025-01-24 22:35:39.456 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.5, "condition": "Stormy", "humidity": 70, "timestamp": "2025-01-24T22:35:39.453493"}
+2025-01-24 22:35:40.457 | INFO     | __main__:generate_messages:77 - Sent: London: 10.0°C, Windy 
+2025-01-24 22:35:40.472 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.0, "condition": "Windy", "humidity": 34, "timestamp": "2025-01-24T22:35:40.456634"}
+2025-01-24 22:35:41.458 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 24.9°C, Sunny 
+2025-01-24 22:35:41.459 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 24.9, "condition": "Sunny", "humidity": 63, "timestamp": "2025-01-24T22:35:41.458460"}
+2025-01-24 22:35:42.459 | INFO     | __main__:generate_messages:77 - Sent: London: 14.9°C, Snowy 
+2025-01-24 22:35:42.461 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.9, "condition": "Snowy", "humidity": 43, "timestamp": "2025-01-24T22:35:42.459533"}
+2025-01-24 22:35:43.460 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 27.0°C, Stormy 
+2025-01-24 22:35:43.463 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 27.0, "condition": "Stormy", "humidity": 37, "timestamp": "2025-01-24T22:35:43.460772"}
+2025-01-24 22:35:44.466 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 24.4°C, Sunny 
+2025-01-24 22:35:44.469 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 24.4, "condition": "Sunny", "humidity": 48, "timestamp": "2025-01-24T22:35:44.466848"}
+2025-01-24 22:35:45.469 | INFO     | __main__:generate_messages:77 - Sent: London: 11.6°C, Cloudy 
+2025-01-24 22:35:45.471 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.6, "condition": "Cloudy", "humidity": 31, "timestamp": "2025-01-24T22:35:45.469089"}
+2025-01-24 22:35:46.470 | INFO     | __main__:generate_messages:77 - Sent: New York: 24.5°C, Windy 
+2025-01-24 22:35:46.473 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 24.5, "condition": "Windy", "humidity": 56, "timestamp": "2025-01-24T22:35:46.470347"}
+2025-01-24 22:35:47.471 | INFO     | __main__:generate_messages:77 - Sent: London: 15.8°C, Windy 
+2025-01-24 22:35:47.473 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.8, "condition": "Windy", "humidity": 90, "timestamp": "2025-01-24T22:35:47.471184"}
+2025-01-24 22:35:48.472 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.8°C, Snowy 
+2025-01-24 22:35:48.474 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.8, "condition": "Snowy", "humidity": 65, "timestamp": "2025-01-24T22:35:48.472465"}
+2025-01-24 22:35:49.473 | INFO     | __main__:generate_messages:77 - Sent: London: 12.9°C, Sunny 
+2025-01-24 22:35:49.475 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 12.9, "condition": "Sunny", "humidity": 78, "timestamp": "2025-01-24T22:35:49.473667"}
+2025-01-24 22:35:50.474 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.9°C, Snowy 
+2025-01-24 22:35:50.476 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.9, "condition": "Snowy", "humidity": 35, "timestamp": "2025-01-24T22:35:50.474497"}
+2025-01-24 22:35:51.475 | INFO     | __main__:generate_messages:77 - Sent: Paris: 21.3°C, Snowy 
+2025-01-24 22:35:51.479 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 21.3, "condition": "Snowy", "humidity": 86, "timestamp": "2025-01-24T22:35:51.475688"}
+2025-01-24 22:35:52.476 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 30.4°C, Snowy 🔥 HEAT ALERT!
+2025-01-24 22:35:52.484 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 30.4, "condition": "Snowy", "humidity": 50, "timestamp": "2025-01-24T22:35:52.476912"}
+2025-01-24 22:35:53.478 | INFO     | __main__:generate_messages:77 - Sent: London: 15.3°C, Rainy 
+2025-01-24 22:35:53.481 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.3, "condition": "Rainy", "humidity": 81, "timestamp": "2025-01-24T22:35:53.478268"}
+2025-01-24 22:35:54.479 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.6°C, Stormy 
+2025-01-24 22:35:54.483 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.6, "condition": "Stormy", "humidity": 50, "timestamp": "2025-01-24T22:35:54.479847"}
+2025-01-24 22:35:55.488 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 30.0°C, Snowy 
+2025-01-24 22:35:55.491 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 30.0, "condition": "Snowy", "humidity": 88, "timestamp": "2025-01-24T22:35:55.486709"}
+2025-01-24 22:35:56.490 | INFO     | __main__:generate_messages:77 - Sent: London: 11.2°C, Snowy 
+2025-01-24 22:35:56.492 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.2, "condition": "Snowy", "humidity": 49, "timestamp": "2025-01-24T22:35:56.490151"}
+2025-01-24 22:35:57.491 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.1°C, Cloudy 
+2025-01-24 22:35:57.493 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.1, "condition": "Cloudy", "humidity": 64, "timestamp": "2025-01-24T22:35:57.491822"}
+2025-01-24 22:35:58.492 | INFO     | __main__:generate_messages:77 - Sent: London: 16.7°C, Sunny 
+2025-01-24 22:35:58.497 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 16.7, "condition": "Sunny", "humidity": 39, "timestamp": "2025-01-24T22:35:58.492546"}
+2025-01-24 22:35:59.493 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.3°C, Rainy 
+2025-01-24 22:35:59.495 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.3, "condition": "Rainy", "humidity": 80, "timestamp": "2025-01-24T22:35:59.493797"}
+2025-01-24 22:36:00.494 | INFO     | __main__:generate_messages:77 - Sent: Paris: 15.5°C, Stormy 
+2025-01-24 22:36:00.500 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 15.5, "condition": "Stormy", "humidity": 35, "timestamp": "2025-01-24T22:36:00.494669"}
+2025-01-24 22:36:01.497 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 21.7°C, Snowy 
+2025-01-24 22:36:01.499 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 21.7, "condition": "Snowy", "humidity": 85, "timestamp": "2025-01-24T22:36:01.496502"}
+2025-01-24 22:36:02.499 | INFO     | __main__:generate_messages:77 - Sent: London: 11.0°C, Sunny 
+2025-01-24 22:36:02.501 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.0, "condition": "Sunny", "humidity": 44, "timestamp": "2025-01-24T22:36:02.499124"}
+2025-01-24 22:36:03.501 | INFO     | __main__:generate_messages:77 - Sent: London: 14.9°C, Snowy 
+2025-01-24 22:36:03.507 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.9, "condition": "Snowy", "humidity": 53, "timestamp": "2025-01-24T22:36:03.500811"}
+2025-01-24 22:36:04.504 | INFO     | __main__:generate_messages:77 - Sent: London: 17.3°C, Stormy 
+2025-01-24 22:36:04.506 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 17.3, "condition": "Stormy", "humidity": 85, "timestamp": "2025-01-24T22:36:04.504293"}
+2025-01-24 22:36:05.507 | INFO     | __main__:generate_messages:77 - Sent: London: 11.5°C, Cloudy 
+2025-01-24 22:36:05.510 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.5, "condition": "Cloudy", "humidity": 89, "timestamp": "2025-01-24T22:36:05.507467"}
+2025-01-24 22:36:06.510 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.1°C, Cloudy 
+2025-01-24 22:36:06.514 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.1, "condition": "Cloudy", "humidity": 82, "timestamp": "2025-01-24T22:36:06.510356"}
+2025-01-24 22:36:07.511 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 31.6°C, Stormy 🔥 HEAT ALERT!
+2025-01-24 22:36:07.520 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 31.6, "condition": "Stormy", "humidity": 42, "timestamp": "2025-01-24T22:36:07.511080"}
+2025-01-24 22:36:08.517 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.5°C, Windy 
+2025-01-24 22:36:08.519 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.5, "condition": "Windy", "humidity": 75, "timestamp": "2025-01-24T22:36:08.511875"}
+2025-01-24 22:36:09.519 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.1°C, Snowy 
+2025-01-24 22:36:09.524 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.1, "condition": "Snowy", "humidity": 48, "timestamp": "2025-01-24T22:36:09.519480"}
+2025-01-24 22:36:10.520 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.3°C, Windy 
+2025-01-24 22:36:10.522 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.3, "condition": "Windy", "humidity": 37, "timestamp": "2025-01-24T22:36:10.520780"}
+2025-01-24 22:36:11.522 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 25.4°C, Snowy 
+2025-01-24 22:36:11.523 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 25.4, "condition": "Snowy", "humidity": 52, "timestamp": "2025-01-24T22:36:11.522171"}
+2025-01-24 22:36:12.523 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 21.6°C, Snowy 
+2025-01-24 22:36:12.525 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 21.6, "condition": "Snowy", "humidity": 71, "timestamp": "2025-01-24T22:36:12.523025"}
+2025-01-24 22:36:13.524 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 28.0°C, Stormy 
+2025-01-24 22:36:13.526 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 28.0, "condition": "Stormy", "humidity": 86, "timestamp": "2025-01-24T22:36:13.524290"}
+2025-01-24 22:36:14.525 | INFO     | __main__:generate_messages:77 - Sent: London: 13.6°C, Rainy 
+2025-01-24 22:36:14.530 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.6, "condition": "Rainy", "humidity": 41, "timestamp": "2025-01-24T22:36:14.525257"}
+2025-01-24 22:36:15.528 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.8°C, Rainy 
+2025-01-24 22:36:15.532 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.8, "condition": "Rainy", "humidity": 31, "timestamp": "2025-01-24T22:36:15.528612"}
+2025-01-24 22:36:16.530 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.4°C, Rainy 
+2025-01-24 22:36:16.532 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.4, "condition": "Rainy", "humidity": 46, "timestamp": "2025-01-24T22:36:16.530974"}
+2025-01-24 22:36:17.531 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.7°C, Snowy 
+2025-01-24 22:36:17.532 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.7, "condition": "Snowy", "humidity": 88, "timestamp": "2025-01-24T22:36:17.531753"}
+2025-01-24 22:36:18.532 | INFO     | __main__:generate_messages:77 - Sent: London: 16.1°C, Rainy 
+2025-01-24 22:36:18.535 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 16.1, "condition": "Rainy", "humidity": 48, "timestamp": "2025-01-24T22:36:18.532964"}
+2025-01-24 22:36:19.534 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.7°C, Sunny 
+2025-01-24 22:36:19.539 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.7, "condition": "Sunny", "humidity": 45, "timestamp": "2025-01-24T22:36:19.534660"}
+2025-01-24 22:36:20.536 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.9°C, Sunny 
+2025-01-24 22:36:20.538 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.9, "condition": "Sunny", "humidity": 86, "timestamp": "2025-01-24T22:36:20.536366"}
+2025-01-24 22:36:21.538 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 24.7°C, Stormy 
+2025-01-24 22:36:21.540 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 24.7, "condition": "Stormy", "humidity": 64, "timestamp": "2025-01-24T22:36:21.538697"}
+2025-01-24 22:36:22.539 | INFO     | __main__:generate_messages:77 - Sent: New York: 21.5°C, Rainy 
+2025-01-24 22:36:22.541 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 21.5, "condition": "Rainy", "humidity": 42, "timestamp": "2025-01-24T22:36:22.539837"}
+2025-01-24 22:36:23.541 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.6°C, Rainy 
+2025-01-24 22:36:23.543 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.6, "condition": "Rainy", "humidity": 50, "timestamp": "2025-01-24T22:36:23.541009"}
+2025-01-24 22:36:24.541 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 26.6°C, Windy 
+2025-01-24 22:36:24.543 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 26.6, "condition": "Windy", "humidity": 40, "timestamp": "2025-01-24T22:36:24.541981"}
+2025-01-24 22:36:25.543 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 27.1°C, Sunny 
+2025-01-24 22:36:25.545 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 27.1, "condition": "Sunny", "humidity": 34, "timestamp": "2025-01-24T22:36:25.543141"}
+2025-01-24 22:36:26.545 | INFO     | __main__:generate_messages:77 - Sent: London: 14.2°C, Stormy 
+2025-01-24 22:36:26.552 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.2, "condition": "Stormy", "humidity": 79, "timestamp": "2025-01-24T22:36:26.544324"}
+2025-01-24 22:36:27.551 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.0°C, Snowy 
+2025-01-24 22:36:27.553 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.0, "condition": "Snowy", "humidity": 31, "timestamp": "2025-01-24T22:36:27.551103"}
+2025-01-24 22:36:28.551 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.2°C, Snowy 
+2025-01-24 22:36:28.554 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.2, "condition": "Snowy", "humidity": 87, "timestamp": "2025-01-24T22:36:28.551945"}
+2025-01-24 22:36:29.552 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.4°C, Sunny 
+2025-01-24 22:36:29.554 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.4, "condition": "Sunny", "humidity": 41, "timestamp": "2025-01-24T22:36:29.552753"}
+2025-01-24 22:36:30.556 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.9°C, Cloudy 
+2025-01-24 22:36:30.561 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.9, "condition": "Cloudy", "humidity": 30, "timestamp": "2025-01-24T22:36:30.555282"}
+2025-01-24 22:36:31.558 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.4°C, Rainy 
+2025-01-24 22:36:31.560 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.4, "condition": "Rainy", "humidity": 59, "timestamp": "2025-01-24T22:36:31.558329"}
+2025-01-24 22:36:32.559 | INFO     | __main__:generate_messages:77 - Sent: New York: 15.9°C, Windy 
+2025-01-24 22:36:32.561 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 15.9, "condition": "Windy", "humidity": 33, "timestamp": "2025-01-24T22:36:32.559287"}
+2025-01-24 22:36:33.560 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 24.2°C, Cloudy 
+2025-01-24 22:36:33.562 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 24.2, "condition": "Cloudy", "humidity": 87, "timestamp": "2025-01-24T22:36:33.560009"}
+2025-01-24 22:36:34.563 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 16.4, "condition": "Stormy", "humidity": 50, "timestamp": "2025-01-24T22:36:34.560953"}
+2025-01-24 22:36:35.566 | INFO     | __main__:generate_messages:77 - Sent: New York: 17.9°C, Stormy 
+2025-01-24 22:36:35.569 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 17.9, "condition": "Stormy", "humidity": 71, "timestamp": "2025-01-24T22:36:35.566954"}
+2025-01-24 22:36:36.567 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.9°C, Windy 
+2025-01-24 22:36:36.569 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.9, "condition": "Windy", "humidity": 87, "timestamp": "2025-01-24T22:36:36.567861"}
+2025-01-24 22:36:37.569 | INFO     | __main__:generate_messages:77 - Sent: Paris: 16.4°C, Cloudy 
+2025-01-24 22:36:37.571 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 16.4, "condition": "Cloudy", "humidity": 51, "timestamp": "2025-01-24T22:36:37.569416"}
+2025-01-24 22:36:38.570 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 23.1°C, Snowy 
+2025-01-24 22:36:38.572 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 23.1, "condition": "Snowy", "humidity": 61, "timestamp": "2025-01-24T22:36:38.570856"}
+2025-01-24 22:36:39.571 | INFO     | __main__:generate_messages:77 - Sent: London: 13.6°C, Windy 
+2025-01-24 22:36:39.574 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.6, "condition": "Windy", "humidity": 66, "timestamp": "2025-01-24T22:36:39.571615"}
+2025-01-24 22:36:40.572 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.0°C, Rainy 
+2025-01-24 22:36:40.574 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.0, "condition": "Rainy", "humidity": 73, "timestamp": "2025-01-24T22:36:40.572944"}
+2025-01-24 22:36:41.574 | INFO     | __main__:generate_messages:77 - Sent: Paris: 15.1°C, Stormy 
+2025-01-24 22:36:41.576 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 15.1, "condition": "Stormy", "humidity": 75, "timestamp": "2025-01-24T22:36:41.574152"}
+2025-01-24 22:36:42.575 | INFO     | __main__:generate_messages:77 - Sent: Paris: 17.1°C, Cloudy 
+2025-01-24 22:36:42.577 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 17.1, "condition": "Cloudy", "humidity": 86, "timestamp": "2025-01-24T22:36:42.575311"}
+2025-01-24 22:36:43.576 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.7°C, Snowy 
+2025-01-24 22:36:43.578 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.7, "condition": "Snowy", "humidity": 65, "timestamp": "2025-01-24T22:36:43.576673"}
+2025-01-24 22:36:44.578 | INFO     | __main__:generate_messages:77 - Sent: Paris: 18.0°C, Windy 
+2025-01-24 22:36:44.581 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 18.0, "condition": "Windy", "humidity": 57, "timestamp": "2025-01-24T22:36:44.578335"}
+2025-01-24 22:36:45.581 | INFO     | __main__:generate_messages:77 - Sent: London: 12.0°C, Snowy 
+2025-01-24 22:36:45.585 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 12.0, "condition": "Snowy", "humidity": 69, "timestamp": "2025-01-24T22:36:45.579603"}
+2025-01-24 22:36:46.583 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.7°C, Cloudy 🔥 HEAT ALERT!
+2025-01-24 22:36:46.589 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.7, "condition": "Cloudy", "humidity": 35, "timestamp": "2025-01-24T22:36:46.583386"}
+2025-01-24 22:36:47.588 | INFO     | __main__:generate_messages:77 - Sent: London: 13.1°C, Stormy 
+2025-01-24 22:36:47.590 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.1, "condition": "Stormy", "humidity": 42, "timestamp": "2025-01-24T22:36:47.588977"}
+2025-01-24 22:36:48.590 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 29.9°C, Cloudy 
+2025-01-24 22:36:48.592 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 29.9, "condition": "Cloudy", "humidity": 78, "timestamp": "2025-01-24T22:36:48.590250"}
+2025-01-24 22:36:49.591 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 20.8°C, Snowy 
+2025-01-24 22:36:49.593 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 20.8, "condition": "Snowy", "humidity": 46, "timestamp": "2025-01-24T22:36:49.591287"}
+2025-01-24 22:36:50.592 | INFO     | __main__:generate_messages:77 - Sent: London: 17.3°C, Sunny 
+2025-01-24 22:36:50.593 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 17.3, "condition": "Sunny", "humidity": 70, "timestamp": "2025-01-24T22:36:50.592404"}
+2025-01-24 22:36:51.593 | INFO     | __main__:generate_messages:77 - Sent: New York: 24.5°C, Sunny 
+2025-01-24 22:36:51.595 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 24.5, "condition": "Sunny", "humidity": 80, "timestamp": "2025-01-24T22:36:51.593585"}
+2025-01-24 22:36:52.594 | INFO     | __main__:generate_messages:77 - Sent: New York: 17.9°C, Snowy 
+2025-01-24 22:36:52.596 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 17.9, "condition": "Snowy", "humidity": 35, "timestamp": "2025-01-24T22:36:52.594671"}
+2025-01-24 22:36:53.595 | INFO     | __main__:generate_messages:77 - Sent: London: 18.0°C, Stormy 
+2025-01-24 22:36:53.597 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 18.0, "condition": "Stormy", "humidity": 80, "timestamp": "2025-01-24T22:36:53.595451"}
+2025-01-24 22:36:54.596 | INFO     | __main__:generate_messages:77 - Sent: London: 11.2°C, Cloudy 
+2025-01-24 22:36:54.598 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.2, "condition": "Cloudy", "humidity": 78, "timestamp": "2025-01-24T22:36:54.596567"}
+2025-01-24 22:36:55.598 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 24.9°C, Cloudy 
+2025-01-24 22:36:55.600 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 24.9, "condition": "Cloudy", "humidity": 36, "timestamp": "2025-01-24T22:36:55.598226"}
+2025-01-24 22:36:56.599 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 21.6°C, Stormy 
+2025-01-24 22:36:56.602 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 21.6, "condition": "Stormy", "humidity": 67, "timestamp": "2025-01-24T22:36:56.599292"}
+2025-01-24 22:36:57.601 | INFO     | __main__:generate_messages:77 - Sent: London: 13.0°C, Sunny 
+2025-01-24 22:36:57.606 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.0, "condition": "Sunny", "humidity": 64, "timestamp": "2025-01-24T22:36:57.600431"}
+2025-01-24 22:36:58.603 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 29.6°C, Rainy 
+2025-01-24 22:36:58.605 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 29.6, "condition": "Rainy", "humidity": 65, "timestamp": "2025-01-24T22:36:58.603467"}
+2025-01-24 22:36:59.605 | INFO     | __main__:generate_messages:77 - Sent: London: 18.6°C, Stormy 
+2025-01-24 22:36:59.607 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 18.6, "condition": "Stormy", "humidity": 43, "timestamp": "2025-01-24T22:36:59.605396"}
+2025-01-24 22:37:00.607 | INFO     | __main__:generate_messages:77 - Sent: London: 18.0°C, Sunny 
+2025-01-24 22:37:00.609 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 18.0, "condition": "Sunny", "humidity": 89, "timestamp": "2025-01-24T22:37:00.607591"}
+2025-01-24 22:37:01.608 | INFO     | __main__:generate_messages:77 - Sent: London: 12.8°C, Stormy 
+2025-01-24 22:37:01.610 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 12.8, "condition": "Stormy", "humidity": 59, "timestamp": "2025-01-24T22:37:01.608550"}
+2025-01-24 22:37:02.609 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 20.2°C, Sunny 
+2025-01-24 22:37:02.611 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 20.2, "condition": "Sunny", "humidity": 53, "timestamp": "2025-01-24T22:37:02.609586"}
+2025-01-24 22:37:03.610 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.4°C, Windy 
+2025-01-24 22:37:03.612 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.4, "condition": "Windy", "humidity": 66, "timestamp": "2025-01-24T22:37:03.610327"}
+2025-01-24 22:37:04.611 | INFO     | __main__:generate_messages:77 - Sent: Paris: 20.8°C, Rainy 
+2025-01-24 22:37:04.613 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 20.8, "condition": "Rainy", "humidity": 60, "timestamp": "2025-01-24T22:37:04.611432"}
+2025-01-24 22:37:05.612 | INFO     | __main__:generate_messages:77 - Sent: Paris: 15.0°C, Cloudy 
+2025-01-24 22:37:05.615 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 15.0, "condition": "Cloudy", "humidity": 53, "timestamp": "2025-01-24T22:37:05.612187"}
+2025-01-24 22:37:06.613 | INFO     | __main__:generate_messages:77 - Sent: London: 13.9°C, Rainy 
+2025-01-24 22:37:06.617 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.9, "condition": "Rainy", "humidity": 71, "timestamp": "2025-01-24T22:37:06.613207"}
+2025-01-24 22:37:07.615 | INFO     | __main__:generate_messages:77 - Sent: London: 14.5°C, Windy 
+2025-01-24 22:37:07.619 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.5, "condition": "Windy", "humidity": 70, "timestamp": "2025-01-24T22:37:07.615374"}
+2025-01-24 22:37:08.616 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.9°C, Rainy 
+2025-01-24 22:37:08.618 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.9, "condition": "Rainy", "humidity": 87, "timestamp": "2025-01-24T22:37:08.616518"}
+2025-01-24 22:37:09.617 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 20.8°C, Sunny 
+2025-01-24 22:37:09.619 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 20.8, "condition": "Sunny", "humidity": 45, "timestamp": "2025-01-24T22:37:09.617540"}
+2025-01-24 22:37:10.618 | INFO     | __main__:generate_messages:77 - Sent: Paris: 20.7°C, Cloudy 
+2025-01-24 22:37:10.620 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 20.7, "condition": "Cloudy", "humidity": 52, "timestamp": "2025-01-24T22:37:10.618433"}
+2025-01-24 22:37:11.622 | INFO     | __main__:generate_messages:77 - Sent: London: 10.8°C, Windy 
+2025-01-24 22:37:11.624 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.8, "condition": "Windy", "humidity": 66, "timestamp": "2025-01-24T22:37:11.620220"}
+2025-01-24 22:37:12.623 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.0°C, Stormy 
+2025-01-24 22:37:12.625 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.0, "condition": "Stormy", "humidity": 59, "timestamp": "2025-01-24T22:37:12.623311"}
+2025-01-24 22:37:13.624 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.8°C, Stormy 
+2025-01-24 22:37:13.626 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.8, "condition": "Stormy", "humidity": 68, "timestamp": "2025-01-24T22:37:13.624481"}
+2025-01-24 22:37:14.625 | INFO     | __main__:generate_messages:77 - Sent: New York: 16.4°C, Rainy 
+2025-01-24 22:37:14.627 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 16.4, "condition": "Rainy", "humidity": 35, "timestamp": "2025-01-24T22:37:14.625452"}
+2025-01-24 22:37:15.626 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.3°C, Sunny 
+2025-01-24 22:37:15.628 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.3, "condition": "Sunny", "humidity": 42, "timestamp": "2025-01-24T22:37:15.626421"}
+2025-01-24 22:37:16.627 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.8°C, Cloudy 
+2025-01-24 22:37:16.630 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.8, "condition": "Cloudy", "humidity": 71, "timestamp": "2025-01-24T22:37:16.627695"}
+2025-01-24 22:37:17.628 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.9°C, Sunny 🔥 HEAT ALERT!
+2025-01-24 22:37:17.630 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.9, "condition": "Sunny", "humidity": 31, "timestamp": "2025-01-24T22:37:17.628730"}
+2025-01-24 22:37:18.630 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.5°C, Snowy 
+2025-01-24 22:37:18.632 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.5, "condition": "Snowy", "humidity": 35, "timestamp": "2025-01-24T22:37:18.630281"}
+2025-01-24 22:37:19.631 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.3°C, Snowy 
+2025-01-24 22:37:19.634 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.3, "condition": "Snowy", "humidity": 37, "timestamp": "2025-01-24T22:37:19.631287"}
+2025-01-24 22:37:20.633 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.9°C, Rainy 
+2025-01-24 22:37:20.636 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.9, "condition": "Rainy", "humidity": 53, "timestamp": "2025-01-24T22:37:20.633560"}
+2025-01-24 22:37:21.634 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 27.6°C, Snowy 
+2025-01-24 22:37:21.636 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 27.6, "condition": "Snowy", "humidity": 47, "timestamp": "2025-01-24T22:37:21.634892"}
+2025-01-24 22:37:22.635 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.6°C, Stormy 
+2025-01-24 22:37:22.637 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.6, "condition": "Stormy", "humidity": 40, "timestamp": "2025-01-24T22:37:22.635778"}
+2025-01-24 22:37:23.637 | INFO     | __main__:generate_messages:77 - Sent: London: 13.1°C, Sunny 
+2025-01-24 22:37:23.641 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.1, "condition": "Sunny", "humidity": 34, "timestamp": "2025-01-24T22:37:23.637180"}
+2025-01-24 22:37:24.638 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 25.6°C, Windy 
+2025-01-24 22:37:24.640 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 25.6, "condition": "Windy", "humidity": 83, "timestamp": "2025-01-24T22:37:24.638459"}
+2025-01-24 22:37:25.639 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.7°C, Rainy 
+2025-01-24 22:37:25.641 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.7, "condition": "Rainy", "humidity": 50, "timestamp": "2025-01-24T22:37:25.639895"}
+2025-01-24 22:37:26.641 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.6°C, Sunny 
+2025-01-24 22:37:26.643 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.6, "condition": "Sunny", "humidity": 39, "timestamp": "2025-01-24T22:37:26.641130"}
+2025-01-24 22:37:27.642 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.2°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:37:27.643 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.2, "condition": "Rainy", "humidity": 53, "timestamp": "2025-01-24T22:37:27.642283"}
+2025-01-24 22:37:28.643 | INFO     | __main__:generate_messages:77 - Sent: New York: 16.9°C, Sunny 
+2025-01-24 22:37:28.645 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 16.9, "condition": "Sunny", "humidity": 46, "timestamp": "2025-01-24T22:37:28.643316"}
+2025-01-24 22:37:29.644 | INFO     | __main__:generate_messages:77 - Sent: London: 11.1°C, Sunny 
+2025-01-24 22:37:29.645 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 11.1, "condition": "Sunny", "humidity": 50, "timestamp": "2025-01-24T22:37:29.644177"}
+2025-01-24 22:37:30.645 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 31.8°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:37:30.647 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 31.8, "condition": "Rainy", "humidity": 30, "timestamp": "2025-01-24T22:37:30.645029"}
+2025-01-24 22:37:31.646 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 25.5°C, Cloudy 
+2025-01-24 22:37:31.648 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 25.5, "condition": "Cloudy", "humidity": 80, "timestamp": "2025-01-24T22:37:31.646176"}
+2025-01-24 22:37:32.647 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 28.1°C, Cloudy 
+2025-01-24 22:37:32.649 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 28.1, "condition": "Cloudy", "humidity": 31, "timestamp": "2025-01-24T22:37:32.647130"}
+2025-01-24 22:37:33.647 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 29.1°C, Rainy 
+2025-01-24 22:37:33.651 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 29.1, "condition": "Rainy", "humidity": 79, "timestamp": "2025-01-24T22:37:33.647984"}
+2025-01-24 22:37:34.657 | INFO     | __main__:generate_messages:77 - Sent: London: 19.6°C, Sunny 
+2025-01-24 22:37:34.661 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 19.6, "condition": "Sunny", "humidity": 59, "timestamp": "2025-01-24T22:37:34.656837"}
+2025-01-24 22:37:35.658 | INFO     | __main__:generate_messages:77 - Sent: London: 20.0°C, Windy 
+2025-01-24 22:37:35.660 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 20.0, "condition": "Windy", "humidity": 63, "timestamp": "2025-01-24T22:37:35.658942"}
+2025-01-24 22:37:36.659 | INFO     | __main__:generate_messages:77 - Sent: New York: 24.9°C, Rainy 
+2025-01-24 22:37:36.660 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 24.9, "condition": "Rainy", "humidity": 39, "timestamp": "2025-01-24T22:37:36.659709"}
+2025-01-24 22:37:37.660 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.1°C, Rainy 
+2025-01-24 22:37:37.662 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.1, "condition": "Rainy", "humidity": 51, "timestamp": "2025-01-24T22:37:37.660406"}
+2025-01-24 22:37:38.661 | INFO     | __main__:generate_messages:77 - Sent: Paris: 22.3°C, Stormy 
+2025-01-24 22:37:38.662 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 22.3, "condition": "Stormy", "humidity": 61, "timestamp": "2025-01-24T22:37:38.661367"}
+2025-01-24 22:37:39.662 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 29.9°C, Cloudy 
+2025-01-24 22:37:39.663 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 29.9, "condition": "Cloudy", "humidity": 68, "timestamp": "2025-01-24T22:37:39.662180"}
+2025-01-24 22:37:40.663 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 26.9°C, Cloudy 
+2025-01-24 22:37:40.669 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 26.9, "condition": "Cloudy", "humidity": 71, "timestamp": "2025-01-24T22:37:40.663145"}
+2025-01-24 22:37:41.663 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.0°C, Windy 
+2025-01-24 22:37:41.668 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.0, "condition": "Windy", "humidity": 72, "timestamp": "2025-01-24T22:37:41.663797"}
+2025-01-24 22:37:42.665 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.9°C, Snowy 🔥 HEAT ALERT!
+2025-01-24 22:37:42.668 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.9, "condition": "Snowy", "humidity": 70, "timestamp": "2025-01-24T22:37:42.665619"}
+2025-01-24 22:37:43.669 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.6°C, Sunny 
+2025-01-24 22:37:43.673 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.6, "condition": "Sunny", "humidity": 81, "timestamp": "2025-01-24T22:37:43.669156"}
+2025-01-24 22:37:44.670 | INFO     | __main__:generate_messages:77 - Sent: Paris: 21.8°C, Snowy 
+2025-01-24 22:37:44.673 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 21.8, "condition": "Snowy", "humidity": 40, "timestamp": "2025-01-24T22:37:44.670316"}
+2025-01-24 22:37:45.671 | INFO     | __main__:generate_messages:77 - Sent: London: 17.6°C, Rainy 
+2025-01-24 22:37:45.674 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 17.6, "condition": "Rainy", "humidity": 76, "timestamp": "2025-01-24T22:37:45.671026"}
+2025-01-24 22:37:46.672 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.8°C, Rainy 
+2025-01-24 22:37:46.675 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.8, "condition": "Rainy", "humidity": 76, "timestamp": "2025-01-24T22:37:46.672311"}
+2025-01-24 22:37:47.673 | INFO     | __main__:generate_messages:77 - Sent: New York: 21.7°C, Stormy 
+2025-01-24 22:37:47.679 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 21.7, "condition": "Stormy", "humidity": 61, "timestamp": "2025-01-24T22:37:47.673136"}
+2025-01-24 22:37:48.675 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.7°C, Sunny 
+2025-01-24 22:37:48.678 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.7, "condition": "Sunny", "humidity": 67, "timestamp": "2025-01-24T22:37:48.674321"}
+2025-01-24 22:37:49.676 | INFO     | __main__:generate_messages:77 - Sent: London: 10.5°C, Stormy 
+2025-01-24 22:37:49.679 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.5, "condition": "Stormy", "humidity": 35, "timestamp": "2025-01-24T22:37:49.676228"}
+2025-01-24 22:37:50.677 | INFO     | __main__:generate_messages:77 - Sent: Paris: 22.6°C, Snowy 
+2025-01-24 22:37:50.679 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 22.6, "condition": "Snowy", "humidity": 44, "timestamp": "2025-01-24T22:37:50.677359"}
+2025-01-24 22:37:51.678 | INFO     | __main__:generate_messages:77 - Sent: New York: 21.7°C, Rainy 
+2025-01-24 22:37:51.680 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 21.7, "condition": "Rainy", "humidity": 61, "timestamp": "2025-01-24T22:37:51.678460"}
+2025-01-24 22:37:52.679 | INFO     | __main__:generate_messages:77 - Sent: London: 15.6°C, Cloudy 
+2025-01-24 22:37:52.681 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.6, "condition": "Cloudy", "humidity": 86, "timestamp": "2025-01-24T22:37:52.679275"}
+2025-01-24 22:37:53.680 | INFO     | __main__:generate_messages:77 - Sent: London: 15.3°C, Sunny 
+2025-01-24 22:37:53.683 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 15.3, "condition": "Sunny", "humidity": 66, "timestamp": "2025-01-24T22:37:53.680001"}
+2025-01-24 22:37:54.680 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.2°C, Cloudy 
+2025-01-24 22:37:54.685 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.2, "condition": "Cloudy", "humidity": 60, "timestamp": "2025-01-24T22:37:54.680943"}
+2025-01-24 22:37:55.683 | INFO     | __main__:generate_messages:77 - Sent: Paris: 19.6°C, Cloudy 
+2025-01-24 22:37:55.685 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 19.6, "condition": "Cloudy", "humidity": 69, "timestamp": "2025-01-24T22:37:55.683990"}
+2025-01-24 22:37:56.688 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.3°C, Snowy 
+2025-01-24 22:37:56.690 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.3, "condition": "Snowy", "humidity": 64, "timestamp": "2025-01-24T22:37:56.687425"}
+2025-01-24 22:37:57.692 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 24.2, "condition": "Sunny", "humidity": 83, "timestamp": "2025-01-24T22:37:57.689141"}
+2025-01-24 22:37:58.720 | INFO     | __main__:generate_messages:77 - Sent: London: 10.7°C, Cloudy 
+2025-01-24 22:37:58.723 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.7, "condition": "Cloudy", "humidity": 44, "timestamp": "2025-01-24T22:37:58.720653"}
+2025-01-24 22:37:59.721 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.9°C, Windy 
+2025-01-24 22:37:59.724 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.9, "condition": "Windy", "humidity": 49, "timestamp": "2025-01-24T22:37:59.721384"}
+2025-01-24 22:38:00.722 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.2°C, Stormy 
+2025-01-24 22:38:00.727 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.2, "condition": "Stormy", "humidity": 73, "timestamp": "2025-01-24T22:38:00.722030"}
+2025-01-24 22:38:01.723 | INFO     | __main__:generate_messages:77 - Sent: Paris: 17.4°C, Snowy 
+2025-01-24 22:38:01.724 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 17.4, "condition": "Snowy", "humidity": 78, "timestamp": "2025-01-24T22:38:01.723225"}
+2025-01-24 22:38:02.728 | INFO     | __main__:generate_messages:77 - Sent: New York: 16.2°C, Stormy 
+2025-01-24 22:38:02.731 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 16.2, "condition": "Stormy", "humidity": 43, "timestamp": "2025-01-24T22:38:02.726375"}
+2025-01-24 22:38:03.730 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.5°C, Rainy 
+2025-01-24 22:38:03.732 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.5, "condition": "Rainy", "humidity": 54, "timestamp": "2025-01-24T22:38:03.729358"}
+2025-01-24 22:38:04.731 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 31.3°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:38:04.736 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 31.3, "condition": "Rainy", "humidity": 80, "timestamp": "2025-01-24T22:38:04.731032"}
+2025-01-24 22:38:05.733 | INFO     | __main__:generate_messages:77 - Sent: London: 14.8°C, Windy 
+2025-01-24 22:38:05.738 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.8, "condition": "Windy", "humidity": 64, "timestamp": "2025-01-24T22:38:05.733726"}
+2025-01-24 22:38:06.736 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 27.2°C, Rainy 
+2025-01-24 22:38:06.739 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 27.2, "condition": "Rainy", "humidity": 42, "timestamp": "2025-01-24T22:38:06.735927"}
+2025-01-24 22:38:07.738 | INFO     | __main__:generate_messages:77 - Sent: Paris: 16.2°C, Windy 
+2025-01-24 22:38:07.740 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 16.2, "condition": "Windy", "humidity": 88, "timestamp": "2025-01-24T22:38:07.738406"}
+2025-01-24 22:38:08.739 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 31.8°C, Cloudy 🔥 HEAT ALERT!
+2025-01-24 22:38:08.742 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 31.8, "condition": "Cloudy", "humidity": 88, "timestamp": "2025-01-24T22:38:08.739431"}
+2025-01-24 22:38:09.740 | INFO     | __main__:generate_messages:77 - Sent: London: 16.1°C, Sunny 
+2025-01-24 22:38:09.741 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 16.1, "condition": "Sunny", "humidity": 61, "timestamp": "2025-01-24T22:38:09.740935"}
+2025-01-24 22:38:10.741 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 25.4°C, Sunny 
+2025-01-24 22:38:10.743 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 25.4, "condition": "Sunny", "humidity": 54, "timestamp": "2025-01-24T22:38:10.741852"}
+2025-01-24 22:38:11.742 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.3°C, Snowy 
+2025-01-24 22:38:11.744 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.3, "condition": "Snowy", "humidity": 40, "timestamp": "2025-01-24T22:38:11.742528"}
+2025-01-24 22:38:12.743 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 24.1°C, Sunny 
+2025-01-24 22:38:12.745 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 24.1, "condition": "Sunny", "humidity": 72, "timestamp": "2025-01-24T22:38:12.743832"}
+2025-01-24 22:38:13.757 | INFO     | __main__:generate_messages:77 - Sent: Paris: 15.0°C, Snowy 
+2025-01-24 22:38:13.759 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 15.0, "condition": "Snowy", "humidity": 62, "timestamp": "2025-01-24T22:38:13.756347"}
+2025-01-24 22:38:14.758 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.1°C, Rainy 
+2025-01-24 22:38:14.759 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.1, "condition": "Rainy", "humidity": 57, "timestamp": "2025-01-24T22:38:14.758204"}
+2025-01-24 22:38:15.759 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.1°C, Snowy 
+2025-01-24 22:38:15.760 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.1, "condition": "Snowy", "humidity": 84, "timestamp": "2025-01-24T22:38:15.759237"}
+2025-01-24 22:38:16.760 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 31.4°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:38:16.762 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 31.4, "condition": "Rainy", "humidity": 32, "timestamp": "2025-01-24T22:38:16.760381"}
+2025-01-24 22:38:17.761 | INFO     | __main__:generate_messages:77 - Sent: London: 18.6°C, Snowy 
+2025-01-24 22:38:17.762 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 18.6, "condition": "Snowy", "humidity": 31, "timestamp": "2025-01-24T22:38:17.761324"}
+2025-01-24 22:38:18.762 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 23.6°C, Windy 
+2025-01-24 22:38:18.764 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 23.6, "condition": "Windy", "humidity": 30, "timestamp": "2025-01-24T22:38:18.762415"}
+2025-01-24 22:38:19.763 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.3°C, Stormy 
+2025-01-24 22:38:19.765 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.3, "condition": "Stormy", "humidity": 90, "timestamp": "2025-01-24T22:38:19.763430"}
+2025-01-24 22:38:20.764 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 26.4°C, Snowy 
+2025-01-24 22:38:20.771 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 26.4, "condition": "Snowy", "humidity": 61, "timestamp": "2025-01-24T22:38:20.764191"}
+2025-01-24 22:38:21.765 | INFO     | __main__:generate_messages:77 - Sent: New York: 18.0°C, Stormy 
+2025-01-24 22:38:21.771 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 18.0, "condition": "Stormy", "humidity": 37, "timestamp": "2025-01-24T22:38:21.765109"}
+2025-01-24 22:38:22.769 | INFO     | __main__:generate_messages:77 - Sent: London: 14.1°C, Stormy 
+2025-01-24 22:38:22.772 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 14.1, "condition": "Stormy", "humidity": 41, "timestamp": "2025-01-24T22:38:22.769359"}
+2025-01-24 22:38:23.771 | INFO     | __main__:generate_messages:77 - Sent: New York: 24.3°C, Cloudy 
+2025-01-24 22:38:23.773 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 24.3, "condition": "Cloudy", "humidity": 70, "timestamp": "2025-01-24T22:38:23.771140"}
+2025-01-24 22:38:24.772 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.7°C, Cloudy 
+2025-01-24 22:38:24.774 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.7, "condition": "Cloudy", "humidity": 62, "timestamp": "2025-01-24T22:38:24.772726"}
+2025-01-24 22:38:25.774 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 26.4°C, Sunny 
+2025-01-24 22:38:25.779 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 26.4, "condition": "Sunny", "humidity": 57, "timestamp": "2025-01-24T22:38:25.774082"}
+2025-01-24 22:38:26.774 | INFO     | __main__:generate_messages:77 - Sent: New York: 19.9°C, Windy 
+2025-01-24 22:38:26.775 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 19.9, "condition": "Windy", "humidity": 90, "timestamp": "2025-01-24T22:38:26.774815"}
+2025-01-24 22:38:27.775 | INFO     | __main__:generate_messages:77 - Sent: London: 17.8°C, Cloudy 
+2025-01-24 22:38:27.778 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 17.8, "condition": "Cloudy", "humidity": 38, "timestamp": "2025-01-24T22:38:27.775608"}
+2025-01-24 22:38:28.776 | INFO     | __main__:generate_messages:77 - Sent: Paris: 14.2°C, Sunny 
+2025-01-24 22:38:28.780 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 14.2, "condition": "Sunny", "humidity": 77, "timestamp": "2025-01-24T22:38:28.776650"}
+2025-01-24 22:38:29.778 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 30.7°C, Rainy 🔥 HEAT ALERT!
+2025-01-24 22:38:29.780 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 30.7, "condition": "Rainy", "humidity": 72, "timestamp": "2025-01-24T22:38:29.777508"}
+2025-01-24 22:38:30.778 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 28.9°C, Stormy 
+2025-01-24 22:38:30.780 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 28.9, "condition": "Stormy", "humidity": 71, "timestamp": "2025-01-24T22:38:30.778655"}
+2025-01-24 22:38:31.780 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 21.6, "condition": "Rainy", "humidity": 89, "timestamp": "2025-01-24T22:38:31.779474"}
+2025-01-24 22:38:32.787 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.7°C, Snowy 
+2025-01-24 22:38:32.789 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.7, "condition": "Snowy", "humidity": 32, "timestamp": "2025-01-24T22:38:32.787067"}
+2025-01-24 22:38:33.788 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 32.8°C, Cloudy 🔥 HEAT ALERT!
+2025-01-24 22:38:33.794 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 32.8, "condition": "Cloudy", "humidity": 40, "timestamp": "2025-01-24T22:38:33.788516"}
+2025-01-24 22:38:34.794 | INFO     | __main__:generate_messages:77 - Sent: London: 19.2°C, Snowy 
+2025-01-24 22:38:34.796 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 19.2, "condition": "Snowy", "humidity": 48, "timestamp": "2025-01-24T22:38:34.794722"}
+2025-01-24 22:38:35.795 | INFO     | __main__:generate_messages:77 - Sent: New York: 23.3°C, Sunny 
+2025-01-24 22:38:35.797 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 23.3, "condition": "Sunny", "humidity": 90, "timestamp": "2025-01-24T22:38:35.795352"}
+2025-01-24 22:38:36.796 | INFO     | __main__:generate_messages:77 - Sent: Paris: 16.0°C, Snowy 
+2025-01-24 22:38:36.798 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 16.0, "condition": "Snowy", "humidity": 37, "timestamp": "2025-01-24T22:38:36.796381"}
+2025-01-24 22:38:37.797 | INFO     | __main__:generate_messages:77 - Sent: New York: 20.3°C, Cloudy 
+2025-01-24 22:38:37.799 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 20.3, "condition": "Cloudy", "humidity": 35, "timestamp": "2025-01-24T22:38:37.797296"}
+2025-01-24 22:38:38.797 | INFO     | __main__:generate_messages:77 - Sent: Sydney: 26.5°C, Windy 
+2025-01-24 22:38:38.801 | INFO     | __main__:process_message:62 - Processing message: {"location": "Sydney", "temperature_celsius": 26.5, "condition": "Windy", "humidity": 55, "timestamp": "2025-01-24T22:38:38.797973"}
+2025-01-24 22:38:39.798 | INFO     | __main__:generate_messages:77 - Sent: Paris: 17.5°C, Sunny 
+2025-01-24 22:38:39.804 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 17.5, "condition": "Sunny", "humidity": 65, "timestamp": "2025-01-24T22:38:39.798706"}
+2025-01-24 22:38:40.799 | INFO     | __main__:generate_messages:77 - Sent: London: 10.9°C, Cloudy 
+2025-01-24 22:38:40.802 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 10.9, "condition": "Cloudy", "humidity": 53, "timestamp": "2025-01-24T22:38:40.799379"}
+2025-01-24 22:38:41.801 | INFO     | __main__:generate_messages:77 - Sent: Tokyo: 25.8°C, Stormy 
+2025-01-24 22:38:41.803 | INFO     | __main__:process_message:62 - Processing message: {"location": "Tokyo", "temperature_celsius": 25.8, "condition": "Stormy", "humidity": 63, "timestamp": "2025-01-24T22:38:41.801948"}
+2025-01-24 22:38:42.804 | INFO     | __main__:generate_messages:77 - Sent: New York: 22.8°C, Sunny 
+2025-01-24 22:38:42.807 | INFO     | __main__:process_message:62 - Processing message: {"location": "New York", "temperature_celsius": 22.8, "condition": "Sunny", "humidity": 70, "timestamp": "2025-01-24T22:38:42.804548"}
+2025-01-24 22:38:43.805 | INFO     | __main__:generate_messages:77 - Sent: London: 13.2°C, Cloudy 
+2025-01-24 22:38:43.809 | INFO     | __main__:process_message:62 - Processing message: {"location": "London", "temperature_celsius": 13.2, "condition": "Cloudy", "humidity": 38, "timestamp": "2025-01-24T22:38:43.805711"}
+2025-01-24 22:38:44.809 | INFO     | __main__:generate_messages:77 - Sent: Paris: 13.2°C, Snowy 
+2025-01-24 22:38:44.810 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 13.2, "condition": "Snowy", "humidity": 54, "timestamp": "2025-01-24T22:38:44.809115"}
+2025-01-24 22:38:45.810 | INFO     | __main__:generate_messages:77 - Sent: Paris: 22.4°C, Windy 
+2025-01-24 22:38:45.814 | INFO     | __main__:process_message:62 - Processing message: {"location": "Paris", "temperature_celsius": 22.4, "condition": "Windy", "humidity": 43, "timestamp": "2025-01-24T22:38:45.810771"}
