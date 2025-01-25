@@ -62,10 +62,11 @@ def generate_messages(producer, topic, interval_secs):
                 "humidity": weather_data.humidity,
                 "timestamp": weather_data.timestamp
             }
-            
-            json_message = json.dumps(message)
-            producer.send(topic, value=json_message)
-            
+            with open("logs/producer_output.json", "a") as file:
+               json_message = json.dumps(message)
+               producer.send(topic, value=json_message)
+               file.write(json_message + "\n")  # Save each JSON message on a new line
+
             alert = ""
             if weather_data.temperature > 30:
                 alert = "🔥 HEAT ALERT!"

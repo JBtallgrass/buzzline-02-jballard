@@ -49,7 +49,7 @@ This project aims to create a foundational framework for understanding and apply
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.11
 - Apache Kafka
 - Kafka Python client libraries
 - Required Python packages (see `requirements.txt`):
@@ -146,3 +146,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 Jason Ballard
+
+
